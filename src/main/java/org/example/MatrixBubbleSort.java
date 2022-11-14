@@ -1,9 +1,7 @@
 package org.example;
 
-import java.util.Arrays;
-
 public class MatrixBubbleSort {
-    public static int[][] sort(int[][] sortMatrix){
+    protected static int[][] sort(int[][] sortMatrix){
         int swap;
         for (int i = 0; i < sortMatrix.length; i++) {
             for (int j = 0; j < sortMatrix[i].length; j++) {
